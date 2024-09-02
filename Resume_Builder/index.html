@@ -341,6 +341,17 @@
         navbarButtons.appendChild(loginButton);
       }
     </script>
+    <script>
+        function redirectToResume(){
+            const loggedInUser = JSON.parse(localStorage.getItem("loggedInUser"));
+
+            if (!loggedInUser){
+                alert("Please login or signup to create your resume.")
+            } else {
+                window.location.href = "resume.html"
+            }
+        }
+    </script>
 
     //resume.html
   </body>
