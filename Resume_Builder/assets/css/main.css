@@ -441,3 +441,30 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(10, 102, 194) 0%, rgb(
     }
 }
 
+/* resume page */
+#about-sc{
+    padding: 64px 0;
+}
+
+.cv-form-row-title{
+    background-color: var(--clr-dark);
+    padding: 0.8rem 1.6rem;
+    margin-bottom: 2rem;
+}
+
+.cv-form-row-title h3{
+    color: var(--clr-white);
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 1.7rem;
+}
+.cv-form-blk{
+    margin: 3rem 0;
+}
+.cv-form-row{
+    padding: 3rem 2rem 0 2rem;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    margin-bottom: 1rem;
+    position: relative;
+}
