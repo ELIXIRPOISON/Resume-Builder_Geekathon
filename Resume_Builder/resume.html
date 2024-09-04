@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Resume Page</title>
     <meta name = "description" content="">
-    <meta name = "viewport" content="width=device-width, initial-scale">
+    <meta name="viewport" content="width=device-width, initial-scale= 1">
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="icon" type="image/png" href="https://img.icons8.com/?size=96&id=20471&format=png">
     <script src="https://cdn.jsdelivr.net/npm/markdown-it/dist/markdown-it.min.js"></script>
@@ -522,11 +522,39 @@ margin-left: 20px;
     </div>
 
     
-<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+ <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.repeater/1.2.1/jquery.repeater.js" integrity="sha512-bZAXvpVfp1+9AUHQzekEZaXclsgSlAeEnMJ6LfFAvjqYUVZfcuVXeQoN5LhD7Uw0Jy4NCY9q3kbdEXbwhZUmUQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="assets/js/script.js"></script>
+<script src="assets/js/job.js" type="module"></script>
+<script src="assets/js/project.js" type="module"></script>
 <script src="assets/js/app.js"></script>
+<!-- <script src="assets/js/script1.js"></script> -->
+<script src="assets/js/script2.js"></script>
 
 
+<script>
+    $(document).ready(function() {
+
+$("#submitBtn").click(function() {
+
+$("#cv-form").hide();
+
+// Display the resume section
+$("#preview-sc").show();
+$(".print-btn-sc").show(); // Show the buttons section
+});
+
+// Add click event listener to the previous button
+$("#previousBtn").click(function() {
+// Hide the resume section
+$("#preview-sc").hide();
+
+// Display the form again
+$("#cv-form").show();
+$(".print-btn-sc").show(); // Show the buttons section
+});
+});
+
+</script>
 </body>
 </html>
