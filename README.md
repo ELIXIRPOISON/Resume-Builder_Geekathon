@@ -29,6 +29,7 @@ This project is a resume builder application designed to assist users in creatin
 ![image](https://github.com/ELIXIRPOISON/Resume-Builder_Geekathon/blob/main/Readme-Assets/CvPrint-Section.png)
 ![image](https://github.com/ELIXIRPOISON/Resume-Builder_Geekathon/blob/main/Readme-Assets/Job-Recomendation.png)
 ![image](https://github.com/ELIXIRPOISON/Resume-Builder_Geekathon/blob/main/Readme-Assets/Project-Recomendation.png)
+[Hosted Link](https://elixirpoison.github.io/Resume-Builder_Geekathon/Resume_Builder/index.html?authuser=3)
 
 
 
